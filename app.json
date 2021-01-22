@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "cryptos",
-    "slug": "cryptos",
+    "name": "cryptoTracker",
+    "slug": "cryptotracker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "React Native app that tracks cryptocurrencies",
+    "githubUrl": "https://github.com/bosgid/cryptoTracker"
   }
 }
