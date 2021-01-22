@@ -28,7 +28,7 @@ const App = () => {
       measurementId: "G-QJ8088T2VR"
     })
 
-    // Check if user is already signed in on app startup
+    // Check if user is already signed in on app-startup
     firebase.auth().onAuthStateChanged((user) => {
       return user ? setAuthState(true) : setAuthState(false)
     })
